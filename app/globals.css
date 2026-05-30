@@ -2,20 +2,21 @@ body{
 padding: 0 ;
   margin: 0;
   overflow-x: hidden;
+   color: black;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    background:
     radial-gradient(
-      circle at top left,
-      rgba(30, 215, 96, 0.12),
-      transparent 30%
+      circle at top,
+      rgba(23, 56, 42, 0.35),
+      transparent 45%
     ),
-    radial-gradient(
-      circle at bottom right,
-      rgba(230, 147, 47, 0.08),
-      transparent 35%
-    ),
-    #07130d;
-
-  color: white;
+    linear-gradient(
+      180deg,
+      #08110d 0%,
+      #0b1712 35%,
+      #102019 70%,
+      #13261d 100%
+    );
 }
 
 .app{

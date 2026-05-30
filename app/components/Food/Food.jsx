@@ -5,8 +5,12 @@ import "./Food.css";
 function Food() {
   const images = [
     "/bg.jpeg",
-    "/1.jpg",
-    "/2.jpg",
+    "/1.jpeg",
+    "/2.jpeg",
+    "/3.jpeg",
+    "/4.jpeg",
+    "/5.jpeg",
+    "/6.jpeg"
     
   ];
 
@@ -15,7 +19,7 @@ function Food() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prev) => (prev + 1) % images.length);
-    }, 5000);
+    }, 4000);
 
     return () => clearInterval(interval);
   }, [images.length]);

@@ -1,11 +1,35 @@
-import React from 'react'
+import React from "react";
+import "./Footer.css";
 
 function Footer() {
   return (
-    <div>
-      
-    </div>
-  )
+    <footer className="footer">
+
+      <div className="footer-top">
+        <p>Ready to visit ?</p>
+
+        <h2>
+          Stay with us at BackBencheres Gargi.
+        </h2>
+      </div>
+
+      <div className="footer-links">
+        <a href="#">Instagram</a>
+        <a href="#stay">Stay</a>
+        <a href="#food">Food</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div className="footer-bottom">
+        <span>Kasol, Himachal Pradesh</span>
+
+        <span>
+          © {new Date().getFullYear()} Backbenchers Gargi
+        </span>
+      </div>
+
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;
