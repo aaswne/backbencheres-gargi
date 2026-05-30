@@ -40,7 +40,7 @@ function Food() {
           </p>
 
           <button className="food-btn">
-            <span>View Food</span>
+            <span>View Menu</span>
             <span className="food-btn-circle">→</span>
           </button>
         </div>

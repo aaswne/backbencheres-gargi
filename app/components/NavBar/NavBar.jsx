@@ -10,10 +10,9 @@ function NavBar() {
       <div className="logo">BackBenchers-Gargi</div>
 
       <nav className={open ? "nav nav-open" : "nav"}>
-        <button className="nav-link">Stay</button>
-        <button className="nav-link">Food</button>
-        <button className="nav-link">Gallery</button>
-        <button className="nav-link">Contact</button>
+        <a href="#home" className="nav-link">Home</a>
+        <a href="#stay" className="nav-link">Food & Stay</a>
+        <a href="#contact" className="nav-link">Contact</a>
       </nav>
 
       <button className="instagram-btn">Instagram</button>
