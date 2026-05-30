@@ -59,7 +59,7 @@ function Food() {
           </div>
 
           <div className="food-info-card card-two">
-            <h4>From ₹99</h4>
+            <h4>From ₹299</h4>
             <p>Budget friendly</p>
           </div>
         </div>
